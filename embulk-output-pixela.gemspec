@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Dumps records to Pixela."
   spec.email         = ["torutakahashi.ayashi@gmail.com"]
   spec.licenses      = ["MIT"]
-  spec.homepage      = "https://github.com/torutakahashi.ayashi/embulk-output-pixela"
+  spec.homepage      = "https://github.com/toru-takahashi/embulk-output-pixela"
 
   spec.files         = `git ls-files`.split("\n") + Dir["classpath/*.jar"]
   spec.test_files    = spec.files.grep(%r{^(test|spec)/})
